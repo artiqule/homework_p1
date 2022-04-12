@@ -3,9 +3,9 @@ INSERT INTO genre(genre_name)
 
 INSERT INTO executor(executor_name)
 	VALUES('Frank Sinatra'),('Louis Armstrong'),
-		        ('Баста'),('Eminem'),('AC/DC'),
-		        ('Linkin Park'),('Justin Timberlake'),
-		        ('Chris Brown');
+		('Баста'),('Eminem'),('AC/DC'),
+		('Linkin Park'),('Justin Timberlake'),
+		('Chris Brown');
 
 INSERT INTO genre_executor(genre_id, executor_id)
 	VALUES(1,1), (1,2),
